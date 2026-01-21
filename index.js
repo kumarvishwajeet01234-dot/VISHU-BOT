@@ -11,7 +11,7 @@ const path = require("path");
 const multer = require("multer");
 
 const app = express();
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 5000;
 
 let activeBots = []; 
 const addUIDs = ["61586559195926"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
